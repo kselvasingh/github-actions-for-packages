@@ -1,4 +1,4 @@
-yaml name: Docker CD
+name: Docker CD
 
 on:
   push:
@@ -46,4 +46,4 @@ jobs:
         env:
           CI: true
           
-   
+
