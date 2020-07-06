@@ -46,7 +46,7 @@ jobs:
         env:
           CI: true
           
-    Build-and-Push-Docker-Image:
+    yaml name:
     runs-on: ubuntu-latest
     needs: test
     name: Docker Build, Tag, Push
